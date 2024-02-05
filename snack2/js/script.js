@@ -2,11 +2,9 @@
 
 // Genera un numero casuale tra 1 e 100
 let numberRandom = Math.floor(Math.random() * 100) + 1;
-console.log(numberRandom);
 
 // Chiedo all'utente di indovinare il numero
 let numberUser = Number(prompt("Indovina un numero tra 1 e 100"));
-console.log(numberUser);
 
 // Continua a chiedere finché l'utente non indovina il numero
 while (numberUser !== numberRandom) {
