@@ -20,9 +20,8 @@ while (sum < 50) {
     } else {
         break;
     }
-
-    console.log(sum);
 }
 
+//stampo i risultati
 document.querySelector("#Number").innerText = numbers;
 document.querySelector("#Sum").innerText = sum;
